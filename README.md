@@ -1,1 +1,1 @@
-"# nurali_khoja" 
+Nurali Khoja
