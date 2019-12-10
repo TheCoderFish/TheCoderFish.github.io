@@ -19,7 +19,7 @@
   }
   .banner-content {
     z-index: 9;
-    .title {
+    .banner-title {
       font-family: "Playfair Display", serif;
       font-weight: 800;
       @include media-breakpoint-down(sm) {
