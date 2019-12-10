@@ -6,30 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nurali Khoja</title>
+    <link rel="stylesheet" href="./assets/css/styles.min.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Raleway:200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <!-- banner-->
-    <div>
-        <h1>Nurali Khoja</h1>
-        <p>Front End Developer</p>
-        <p>JavaScript Enthusiast</p>
-        <p>Angular For SPA</p>
-        <p>RxJS For Reactive Programming</p>
-        <button>Resume</button>
-    </div>
+    <!-- Main-wrapper -->
+    <div class="main-warpper position-relative w-100 h-100 overflow-auto">
+        <!-- Header -->
+        <nav class="navbar navbar-expand-lg navbar-dark position-absolute justify-content-end w-100">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center py-3" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link px-1 mx-3 active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-1 mx-3 " href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-1 mx-3 " href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Ends:Header -->
+        <!-- Banner-->
+        <div
+            class="banner container-fluid d-flex flex-column align-items-center justify-content-center position-relative text-white overflow-hidden position-relative h-100">
+            <div
+                class="banner-content d-flex flex-column w-100 align-items-center justify-content-center position-absolute">
+                <h1 class="banner-title display-1"> Nurali Khoja</h1>
+                <div class="info text-center ">Front End Developer , JavaScript Enthusiast , Angular For SPA , RxJS For
+                    Reactive Programming</div>
+                <button class="download-btn btn text-warning mt-4">Download Resume
+                    <span class="fa fa-download px-2"></span>
+                </button>
+            </div>
+            <div class="banner-down d-flex justify-content-center position-absolute rounded-circle mt-5">
+                <span class="banner-down-arrow fa fa-chevron-down text-warning position-absolute"></span>
+            </div>
+            <div class="banner-overlay position-absolute w-100 h-100"></div>
+        </div>
+        <!-- Ends:Banner -->
+        <!-- About Me-->
 
-    <!-- About Me-->
-    <div>
-        <h1>About Me</h1>
-        <h2>Hello I am Nurali</h2>
-        <p>I am a Front End Developer currently working on projects that use the Angular Franework.
-            I am a big fan of the RxJS library and love to spend time finding reactive solutions to incorporate in the
-            apps I build.
-            I was also a backend engineer for a while and so I am looking forward to expanding my skillset to be a
-            <strong>Full Stack Engineer</strong> someday.
-        </p>
+        <div class="aboutme d-flex flex-column align-items-center py-4">
+            <h3 class="title text-center my-4">About Me</h3>
+            <div class="container mt-4">
+                <h4 class="text-center">Hello I am Nurali</h4>
+                <p>
+                    I am a Front End Developer currently working on projects that use the Angular Franework.
+                    I am a big fan of the RxJS library and love to spend time finding reactive solutions to incorporate
+                    in the apps I build. I was also a backend engineer for a while and so I am looking forward to
+                    expanding my skillset to be a <strong>Full Stack Engineer</strong> someday.
+                </p>
+            </div>
+        </div>
+        <!-- Ends:About Me -->
     </div>
+    <!-- Ends:Main-wrapper -->
+    <script src="./vendor/jquery/jquery-3.3.1.slim.min.js"></script>
+    <script src="./vendor/bootstrap/js/popper.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

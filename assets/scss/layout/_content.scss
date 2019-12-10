@@ -1,0 +1,81 @@
+// Banner styles goes here
+.banner {
+  background: url(./../../../assets/images/banner-bg.jpg);
+  background-size: cover;
+
+  .banner-overlay {
+    background-color: rgba($primary, 0.8);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    &::after {
+      content: "";
+      height: 100%;
+      width: 50%;
+      background-color: rgba($white, 0.03);
+      position: absolute;
+      right: 0;
+    }
+  }
+  .banner-content {
+    z-index: 9;
+    .banner-title {
+      font-family: "Playfair Display", serif;
+      font-weight: 800;
+      @include media-breakpoint-down(sm) {
+        font-size: 3rem;
+      }
+    }
+    .info {
+      font-family: "Raleway", sans-serif;
+      font-weight: 500;
+      padding: 15px 70px;
+      line-height: 1.6;
+      font-size: 1.25rem;
+      width: 50%;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+        padding: 15px 40px;
+        font-size: 1rem;
+      }
+    }
+    .download-btn {
+      border: 2px solid $warning;
+      border-radius: 30px;
+      font-size: 20px;
+      padding: 10px 20px;
+      @include media-breakpoint-down(sm) {
+        font-size: 16px;
+      }
+    }
+  }
+  .banner-down {
+    width: 45px;
+    height: 45px;
+    border: 1px solid $white;
+    z-index: 10;
+    bottom: 60px;
+    .banner-down-arrow {
+      animation: movedown 2.5s infinite;
+    }
+    @keyframes movedown {
+      from {
+        top: 6px;
+      }
+      to {
+        top: 20px;
+      }
+    }
+  }
+}
+// Title
+.title {
+  position: relative;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  box-shadow: inset 0px -2px 0px;
+  padding: 4px;
+}
+// About me styles goes here
+.aboutme {
+}

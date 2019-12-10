@@ -1,0 +1,15 @@
+// header styles goes here
+.navbar {
+  z-index: 99;
+  background-color: transparent;
+  .nav-link {
+    &:active,
+    &.active {
+      box-shadow: inset 0px -2px 0px;
+    }
+  }
+  .navbar-toggler-icon{
+      width: 1.2em;
+      height: 1.2em;
+  }
+}
