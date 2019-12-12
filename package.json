@@ -1,0 +1,24 @@
+{
+  "name": "nurali_khoja",
+  "version": "1.0.0",
+  "description": "Nurali Khoja",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheCoderFish/nurali_khoja.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheCoderFish/nurali_khoja/issues"
+  },
+  "homepage": "https://github.com/TheCoderFish/nurali_khoja#readme"
+}
